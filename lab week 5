@@ -28,8 +28,9 @@ int main()
 
 	string name;
 	cout << "please enter a name :";
-	cin >> name;
+	
 	getline(cin, name);
+	cout << name << endl;
 
 	return 0;
 
