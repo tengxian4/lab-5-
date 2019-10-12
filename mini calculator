@@ -1,0 +1,33 @@
+/*This is a mini calculator*/
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int x, y;
+	cout << "please enter x:";
+	cin >> x;
+	cout << "please enter y:";
+	cin >> y;
+	char choice;
+	cout << "A=addition, B=minus, C=multiplication, D=division\n";
+	cout << "please enter you choice :";
+	cin >> choice;
+	switch (choice)
+	{
+	case 'A': cout << x + y << endl;
+		break;
+	case 'B':cout << x - y << endl;
+		break;
+	case 'C': cout << x * y << endl;
+		break;
+	case 'D': cout << x / y << endl;
+		break;
+	default: cout << "You did not enter a valid choice. The valid choice is A,B,C,D.";
+
+
+		return 0;
+
+	}
+}
