@@ -1,5 +1,5 @@
 /*This is a mini calculator*/
-#include "pch.h"
+#include "stdafx.h" 
 #include <iostream>
 using namespace std;
 
