@@ -24,7 +24,7 @@ int main()
 		break;
 	case 'D': cout << x / y << endl;
 		break;
-	default: cout << "You did not enter a valid choice. The valid choice is A,B,C,D.";
+	default: cout << "You did not enter a valid choice. The valid choice is A,B,C,D.\n";
 
 
 		return 0;
